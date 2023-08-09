@@ -67,15 +67,15 @@ const routes = [
 const Sidebar = () => {
   const pathName = usePathname();
   return (
-    <div className="flex flex-col h-full bg-[#111827] text-white">
+    <div className="flex flex-col h-full bg-[#111827] p-2 text-white">
       <div className="flex-1">
         <Link href="/dashboard" className="flex items-center">
-          <div className="relative md:w-24 md:h-24 w-20 h-20">
+          <div className="relative md:w-24 md:h-24 w-14 p-3 h-14">
             <Image fill alt="zyllabs logo" src="/logo.png" />
           </div>
           <div
             className={cn(
-              "text-2xl font-bold mb-2 justify-center items-center",
+              "text-2xl font-bold md:mb-2 justfy-center items-center",
               montserrat.className
             )}
           >

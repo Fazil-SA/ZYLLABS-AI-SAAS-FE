@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="flex p-4 justify-start items-start">
         <MobileSidebar />
       </div>
-      <div className="flex justify-end w-full p-4">
+      <div className="flex justify-end p-4 absolute top-0 right-0">
         <UserButton afterSignOutUrl="/" />
       </div>
     </>
